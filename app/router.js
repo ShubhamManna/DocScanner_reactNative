@@ -7,7 +7,8 @@ import scanning from './screens/scanning';
 import saveddocs from './screens/saveddocs';
 
 let screen = Dimensions.get('window');
-//
+//This is a bottom navigation bar to switch between scanning and saveddocs
+
 export const Tabs = TabNavigator({
   'scanning': {
     screen: scanning,
