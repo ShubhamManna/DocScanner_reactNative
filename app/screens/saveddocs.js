@@ -7,6 +7,7 @@ import {
     View
 } from 'react-native';
 
+//This screeen shows the saved documents from gallery 
 export default class saveddocs extends Component {
 
     render() {

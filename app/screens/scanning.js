@@ -5,11 +5,11 @@ import {
   View
 } from 'react-native';
 
-import DocumentScanner from "react-native-document-scanner";
-import CustomCrop from "react-native-perspective-image-cropper";
-import CameraRoll from "@react-native-community/cameraroll";
+import DocumentScanner from "react-native-document-scanner";  //Using public library for scanning
+import CustomCrop from "react-native-perspective-image-cropper";  //Using public library for Cropping
+import CameraRoll from "@react-native-community/cameraroll";  //Using this library to save images to storage
 
-
+//This screen is for scanning the documents
 export default class scanning extends Component {
   render() {
     return (
