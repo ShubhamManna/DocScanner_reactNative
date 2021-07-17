@@ -1,2 +1,3 @@
 # DocScanner_reactNative
 
+## Features
